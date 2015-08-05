@@ -3305,7 +3305,7 @@
 
 	@media screen and (max-width: 878px) {
 		
-		.banner-content {
+		#banner .banner-content {
 			margin-left: 50%;
 		}
 
@@ -3373,7 +3373,7 @@
 				background-attachment: scroll;
 			}
 
-				.banner-content {
+				#banner .banner-content {
 					margin-left: 40%;
 				}
 
@@ -3661,7 +3661,7 @@
 			}
 
 		/* Banner */
-		.banner-content {
+		#banner .banner-content {
 			margin-left: 0;
 			width: 100%;
 		}
