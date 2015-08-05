@@ -3303,6 +3303,15 @@
 		display: none;
 	}
 
+	@media screen and (max-width: 878px) {
+		
+		.banner-content {
+			margin-left: 50%;
+		}
+
+	}
+
+
 	@media screen and (max-width: 736px) {
 
 		/* Basic */
@@ -3363,6 +3372,10 @@
 				padding: 5em 3em 2em 3em ;
 				background-attachment: scroll;
 			}
+
+				.banner-content {
+					margin-left: 40%;
+				}
 
 				#banner h2 {
 					font-size: 1.5em;
@@ -3471,6 +3484,11 @@
 						color: inherit;
 						text-decoration: none;
 					}
+
+						#titleBar .title a img{
+							width: 66px;
+							margin-top: 3px;
+						}
 
 			#navPanel {
 				-moz-backface-visibility: hidden;
@@ -3642,6 +3660,11 @@
 				width: 10em;
 			}
 
+		/* Banner */
+		.banner-content {
+			margin-left: 0;
+			width: 100%;
+		}
 	}
 
 	/* Stone Fox */
